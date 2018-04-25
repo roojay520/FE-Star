@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>one</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            font-size: 16px;
+            background-color: #f1f7fc;
+        }
+
+        #warning {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            background-color: #f6e236;
+        }
+
+        .sector {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            transform-origin: 0 100%;
+            background: #000;
+        }
+
+        .sector-1 {
+            top: 0;
+            left: 0;
+            transform: skewX(30deg);
+        } 
+
+        .sector-2 {
+            top: 0;
+            right: 0;
+            transform: skewX(-30deg);
+        }
+        .sector-3 {
+            top: 0;
+            right: 0;
+            transform: rotate(120deg) skewX(-30deg);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 核辐射警告标志是一个60度扇形黄、黑相间的圆，
+使用 html 和 css 实现 在网页中始终垂直、水平居中显示一个半径100的核辐射警告标志圆 -->
+    <div id="warning">
+        <div class="sector sector-1"></div>
+        <div class="sector sector-2"></div>
+        <div class="sector sector-3"></div>
+    </div>
+</body>
+
+</html>

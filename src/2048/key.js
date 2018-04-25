@@ -1,0 +1,7 @@
+export default {
+  left: 37,
+  up: 38,
+  right: 39,
+  down: 40
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImpzL2tleS5qcyJdLCJuYW1lcyI6WyJsZWZ0IiwidXAiLCJyaWdodCIsImRvd24iXSwibWFwcGluZ3MiOiJBQUFBLGVBQWU7QUFDYkEsUUFBTSxFQURPO0FBRWJDLE1BQUksRUFGUztBQUdiQyxTQUFPLEVBSE07QUFJYkMsUUFBTTtBQUpPLENBQWYiLCJmaWxlIjoia2V5LmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuICBsZWZ0OiAzNyxcbiAgdXA6IDM4LFxuICByaWdodDogMzksXG4gIGRvd246IDQwLFxufTtcblxuIl19

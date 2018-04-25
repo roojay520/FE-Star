@@ -1,0 +1,27 @@
+{
+  "name": "fe-star",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel:2048": "babel src/2048/js -d src/2048 -s inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roojay520/FE-Star.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roojay520/FE-Star/issues"
+  },
+  "homepage": "https://github.com/roojay520/FE-Star#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
